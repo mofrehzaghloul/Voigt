@@ -1,10 +1,13 @@
 Voigt_rk: A Fortran subroutine to calculate the Voigt function (real part of the Faddeyeva function) to accuracy
-in the order of 10^-6
+in the order of 10^-6. 
 The subroutine exists in the module Voigt_mod_rk together with the HUMLIK subrourine for the sake
 of comparison and efficiency benchmark.
 The subroutine Faddeyeva_V3_rk in the module Faddeyeva_v3_mod_rk (accurate up 14 significant digits)
 is used as a reference for accuracy check.  
- 
+
+## Related Publication
+For more information, check out the paper here: https://doi.org/10.1016/j.jqsrt.2024.109234 
+
 Installation
 ========
 Save all the accompanying files in a single directory with a name that is compatible with your Fortran compiler.
